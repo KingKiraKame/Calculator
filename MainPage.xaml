@@ -9,8 +9,9 @@
         <Label x:Name ="Number" Text="Welcome"
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
-        <Grid>
-           <Grid.ColumnDefinitions>
+        <Grid HorizontalOptions="Center"
+              VerticalOptions="Center">
+            <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="64" />
                 <ColumnDefinition Width="64" />
                 <ColumnDefinition Width="64" />
